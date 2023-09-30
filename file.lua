@@ -34,6 +34,5 @@ function ui:CreateTimer(font)
     while wait(1) do
         UpdateTime(frame2)
     end
-    return font
 end
 return ui
