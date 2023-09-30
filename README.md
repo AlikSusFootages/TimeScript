@@ -17,3 +17,6 @@ local ui = time:CreateTimer({Font = font})
 ### 💬 - Fonts
 
 DOCS: https://create.roblox.com/docs/reference/engine/enums/Font
+
+-----------------
+1 | 2 | 3 
