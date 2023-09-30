@@ -19,7 +19,7 @@ local ui = time:CreateTimer({Font = font})
 DOCS: https://create.roblox.com/docs/reference/engine/enums/Font
 
 
-| Name | Value | Summary |
-|------------|------------|------------|
-| Строка 1, Колонка 1 | Строка 1, Колонка 2 | Строка 1, Колонка 3 |
-| Строка 2, Колонка 1 | Строка 2, Колонка 2 | Строка 2, Колонка 3 |
+| Name | Value |
+|------------|------------|
+| Legacy | 0 |
+| Arial | 1 |
