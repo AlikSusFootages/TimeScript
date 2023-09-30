@@ -11,13 +11,7 @@ end
 
 local ui = {}
 
-function ui:CreateTimer()
-    local fonntt = {}
-    function fonntt:ChangeFont(Font)
-        local font = Font or "GothamMedium"
-    end
-
-
+function ui:CreateTimer(font)
     local frame2 = Instance.new("TextLabel", frame)
     frame2.Size = UDim2.new(1, 0, 0, 32)
     frame2.BorderSizePixel = 0
