@@ -6,7 +6,7 @@
 
 ### How to use?
 
-> ```lua
+```lua
 local time = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlikSusFootages/TimeScript/main/file.lua"))()
 
 local font = "YOUR FONT"
