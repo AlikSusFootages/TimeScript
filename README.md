@@ -13,3 +13,5 @@ local font = "YOUR FONT"
 
 local ui = time:CreateTimer({Font = font})
 ```
+
+### 💬 - Fonts
