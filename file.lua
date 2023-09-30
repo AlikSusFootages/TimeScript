@@ -11,7 +11,7 @@ end
 
 local ui = {}
 
-function ui:CreateTimer
+function ui:CreateTimer()
     local fonntt = {}
     function fonntt:ChangeFont(Font)
         local font = Font or "GothamMedium"
