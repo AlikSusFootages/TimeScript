@@ -1,4 +1,4 @@
-<img style="margin-top: 10px" src="logo.png" alt="logo">
+<img src="logo.png" alt="logo">
 
 ### 🖼️ - Preview
 
