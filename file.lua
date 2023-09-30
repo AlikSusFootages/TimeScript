@@ -18,7 +18,7 @@ frame2.BackgroundColor3 = Color3.fromRGB(0,0,0)
 frame2.BackgroundTransparency = 0.5
 frame2.TextColor3 = Color3.fromRGB(255,255,255)
 frame2.Text = os.date("%H:%M:%S")
-frame2.Font = "Arial"
+frame2.Font = "Code"
 frame2.TextSize = 15
 
 local anim = TweenService:Create(frame2, TweenInfo.new(0.5), {Position = UDim2.new(0, -10, 1, 0)})
