@@ -36,7 +36,7 @@ local uicorner = Instance.new("UICorner", frame2)
 uicorner.CornerRadius = UDim.new(0,8)
 
 
-
+return ui 
 while wait(1) do
     UpdateTime(frame2)
 end
