@@ -12,6 +12,7 @@ end
 local ui = {}
 
 function ui:CreateTimer(font)
+    font.Font = font.Font or "GothamMedium"
     local frame2 = Instance.new("TextLabel", frame)
     frame2.Size = UDim2.new(1, 0, 0, 32)
     frame2.BorderSizePixel = 0
@@ -21,7 +22,7 @@ function ui:CreateTimer(font)
     frame2.BackgroundTransparency = 0.5
     frame2.TextColor3 = Color3.fromRGB(255,255,255)
     frame2.Text = os.date("%H:%M:%S")
-    frame2.Font = font or "GothamMedium"
+    frame2.Font = font.Font
     frame2.TextSize = 15
 
     local anim = TweenService:Create(frame2, TweenInfo.new(0.5), {Position = UDim2.new(0, -10, 1, 0)})
