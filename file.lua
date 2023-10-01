@@ -37,7 +37,7 @@ function ui:CreateTimer(font)
 
     local icon = Instance.new("ImageLabel", frame2)
     icon.Size = UDim2.new(0, 15, 0, 15)
-    icon.Position = UDim2.new(0, 8, 0, 8)
+    icon.Position = UDim2.new(0, 9, 0, 8)
     icon.BackgroundTransparency = 1
     icon.Image = "rbxassetid://10734984606"
 
