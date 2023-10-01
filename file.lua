@@ -1,18 +1,22 @@
-local frame = Instance.new("Frame", game.CoreGui.TopBarApp.TopBarFrame.LeftFrame)
-frame.Size = UDim2.new(0, 105, 1, 0)
-frame.LayoutOrder = 3
-frame.BackgroundTransparency = 1
-
-local TweenService = game:GetService("TweenService")
-
-function UpdateTime(menu)
-    menu.Text = os.date("%H:%M:%S")
-end
 
 local ui = {}
 
 function ui:CreateTimer(font)
     font.Font = font.Font or "Gotham"
+
+    local frame = Instance.new("Frame", game.CoreGui.TopBarApp.TopBarFrame.LeftFrame)
+    frame.Size = UDim2.new(0, 105, 1, 0)
+    frame.LayoutOrder = 3
+    frame.BackgroundTransparency = 1
+
+    local TweenService = game:GetService("TweenService")
+
+    function UpdateTime(menu)
+        menu.Text = os.date("%H:%M:%S")
+    end
+
+    game.CoreGui.TopBarApp.TopBarFrame.LeftFrame.ChatIcon.Size = UDim2.new(0, 32, 1, 0)
+
 
     local frame2 = Instance.new("TextLabel", frame)
     frame2.Size = UDim2.new(1, 0, 0, 32)
