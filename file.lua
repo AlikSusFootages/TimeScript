@@ -22,13 +22,22 @@ function ui:CreateTimer(font)
     frame2.BackgroundColor3 = Color3.fromRGB(0,0,0)
     frame2.BackgroundTransparency = 0.5
     frame2.TextColor3 = Color3.fromRGB(255,255,255)
-    frame2.Text = os.date("%H:%M:%S")
-    frame2.Font = font.Font
+    frame2.Text = ""
     frame2.TextSize = 15
 
+    local text = Instance.new("TextLabel", frame2)
+    text.Size = UDim2.new(1, -10, 1, 0)
+    text.AnchorPoint = Vector2.new(1,0)
+    text.Position = UDim2.new(1,0,0,0)
+    text.BackgroundTransparency = 1
+    text.Text = os.date("%H:%M:%S")
+    text.Font = font.Font
+    text.TextSize = 15
+    text.TextColor3 = Color3.fromRGB(255,255,255)
+
     local icon = Instance.new("ImageLabel", frame2)
-    icon.Size = UDim2.new(0, 30, 0, 30)
-    icon.Position = UDim2.new(0, 1, 0, 1)
+    icon.Size = UDim2.new(0, 15, 0, 15)
+    icon.Position = UDim2.new(0, 8, 0, 8)
     icon.BackgroundTransparency = 1
     icon.Image = "rbxassetid://10734984606"
 
@@ -40,7 +49,7 @@ function ui:CreateTimer(font)
     uicorner.CornerRadius = UDim.new(0,8)
 
     while wait(1) do
-        UpdateTime(frame2)
+        UpdateTime(text)
     end
 end
 return ui
