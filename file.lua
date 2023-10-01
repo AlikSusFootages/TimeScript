@@ -30,7 +30,7 @@ function ui:CreateTimer(font)
     frame2.TextSize = 15
 
     local text = Instance.new("TextLabel", frame2)
-    text.Size = UDim2.new(1, -10, 1, 0)
+    text.Size = UDim2.new(1, -12, 1, 0)
     text.AnchorPoint = Vector2.new(1,0)
     text.Position = UDim2.new(1,0,0,0)
     text.BackgroundTransparency = 1
