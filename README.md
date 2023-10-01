@@ -2,7 +2,7 @@
 
 ### 🖼️ - Preview
 
-> <img src="https://cdn.discordapp.com/attachments/1041418192444211300/1157689008952979476/Screenshot_2023-09-30-20-41-45-118_com.roblox.client.png?ex=65198568&is=651833e8&hm=6132da18674a6b3657eadca5b3fa9cdf4b9b7cc6966ee12012511b987efb6a7e&" alt="image">
+> <img src="https://cdn.discordapp.com/attachments/1041418192444211300/1158077623348510740/Screenshot_2023-10-01-22-25-49-040_com.roblox.client.png?ex=651aef55&is=65199dd5&hm=9ad3cffccc8f9739d307e49842652b0f198c870514d456e89a6889e336e6da57&" alt="image">
 
 ### 📄 - Script
 
