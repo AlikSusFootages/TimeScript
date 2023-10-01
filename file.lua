@@ -1,5 +1,5 @@
 local frame = Instance.new("Frame", game.CoreGui.TopBarApp.TopBarFrame.LeftFrame)
-frame.Size = UDim2.new(0, 100, 1, 0)
+frame.Size = UDim2.new(0, 105, 1, 0)
 frame.LayoutOrder = 3
 frame.BackgroundTransparency = 1
 
