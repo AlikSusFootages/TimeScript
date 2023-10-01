@@ -12,7 +12,7 @@ end
 local ui = {}
 
 function ui:CreateTimer(font)
-    font.Font = font.Font or "GothamMedium"
+    font.Font = font.Font or "Gotham"
 
     local frame2 = Instance.new("TextLabel", frame)
     frame2.Size = UDim2.new(1, 0, 0, 32)
