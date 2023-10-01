@@ -25,7 +25,7 @@ function ui:CreateTimer(font)
     frame2.Font = font.Font
     frame2.TextSize = 15
 
-    local anim = TweenService:Create(frame2, TweenInfo.new(0.5), {Position = UDim2.new(0, -10, 1, 0)})
+    local anim = TweenService:Create(frame2, TweenInfo.new(0.5), {Position = UDim2.new(0, 0, 1, 0)})
 
     anim:Play()
 
